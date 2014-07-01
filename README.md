@@ -45,6 +45,7 @@
 	    }
 
     }
+
 ### 链接
 1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
 2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
@@ -78,6 +79,21 @@
 注意这不是单引号，而是Tab键和数字1键左边的按键（注意使用英文输入法）。<br />
 	example：
 		Thank`You`. Please `Call` Me `Coder`
+### 代码片段高亮显示
+GitHub的markdown语法还支持部分语言的代码片段高亮显示。只需要在代码的上一行和下一行用\`\`\`标记。
+```Java
+	public static void main(String[] args){} //Java
+```
+```c
+	int main(int argc,char *argv[]) //C
+```
+```javascript
+	document.getElementById("myH1").innerHTML="Welcome to my Homepage";//javascript
+```
+```cpp
+	string &operator+(const string& A,const string& B) //cpp
+```
+	
 ### list列表条目使用
 写文章时经常会用到list列表条目。GitHub的markdown语法里也支持使用圆点符。编辑的时候使用的是星号*。
 * 国籍：中国
