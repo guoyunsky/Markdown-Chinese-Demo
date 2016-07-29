@@ -42,12 +42,15 @@
 1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
 2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
 
-###只是显示图片
-![github](http://github.com/unicorn.png "github")
+###只是显示百度的图片
+![baidu-images](http://www.baidu.com/img/bdlogo.png "baidu")  
+
+###只是显示图片，这里用的是相对路径
+![github-01.jpg](/images/01.jpg "github-01.jpg")
 
 ###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
 [![image]](http://www.github.com/)
-[image]: http://github.com/github.png "github"
+[image]: /images/02.jpg "github-02.jpg"
 
 ### 文字被些字符包围
 > 文字被些字符包围
