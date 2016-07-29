@@ -56,6 +56,9 @@
 ###只是显示图片，这里用的是相对路径
 ![github-01.jpg](/images/01.jpg "github-01.jpg")
 
+### 显示图片也可以用原生的html标签
+<img src="http://su.bdimg.com/static/superplus/img/logo_white.png" />
+
 ###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
 [![image]](http://www.github.com/)
 [image]: /images/02.jpg "github-02.jpg"
