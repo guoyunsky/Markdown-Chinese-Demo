@@ -50,16 +50,16 @@
 1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
 2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
 
-###只是显示百度的图片
+### 只是显示百度的图片
 ![baidu-images](http://www.baidu.com/img/bdlogo.png "baidu")  
 
-###只是显示图片，这里用的是相对路径
+### 只是显示图片，这里用的是相对路径
 ![github-01.jpg](/images/01.jpg "github-01.jpg")
 
 ### 显示图片也可以用原生的html标签
 <img src="http://su.bdimg.com/static/superplus/img/logo_white.png" />
 
-###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
+### 想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
 [![image]](http://www.github.com/)
 [image]: /images/02.jpg "github-02.jpg"
 
